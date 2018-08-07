@@ -6,6 +6,7 @@ import (
 	"github.com/astaxie/beego/context"
 	"strings"
 	"net/http"
+	_"myproject/loveHome/models"
 )
 
 func ignoreStaticPath(){
