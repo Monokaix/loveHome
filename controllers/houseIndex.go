@@ -1,8 +1,7 @@
 package controllers
-
 import (
-"github.com/astaxie/beego"
-"myproject/loveHome/models"
+	"github.com/astaxie/beego"
+	"myproject/loveHome/models"
 
 )
 

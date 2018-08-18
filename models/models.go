@@ -1,10 +1,9 @@
 package models
 
-import "time"
-
 import (
-	_ "github.com/go-sql-driver/mysql"
+	"time"
 	"github.com/astaxie/beego/orm"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 /* 用户 table_name = user */
@@ -98,7 +97,6 @@ type OrderHouse struct {
 	Ctime       time.Time `orm:"auto_now_add;type(datetime)" json:"ctime"`
 }
 
-//数据库初始化
 func init(){
 
 	// set default database

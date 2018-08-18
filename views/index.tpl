@@ -93,6 +93,3 @@
   <script src="/static/js/reload.min.js"></script>
 </body>
 </html>
-
-
-
